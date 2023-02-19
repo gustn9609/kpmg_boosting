@@ -73,6 +73,14 @@
 
 ```BART```를 활용해 비꼬거나 혐오 표현을 담은 동료 평가 텍스트를 순화합니다.
 
+## Demo
+
+![Demo_1](https://user-images.githubusercontent.com/105059564/219953663-93e6c55d-285e-4a3d-982c-05ab8d0fa213.png)
+![Demo_2](https://user-images.githubusercontent.com/105059564/219953669-7cf66b0d-5618-4627-bbab-b1c05fa89541.png)
+![Demo_3](https://user-images.githubusercontent.com/105059564/219953674-d5be1675-415e-431a-8cf6-f6ab1eea4c57.png)
+
+
+
 ## Members
 | [김한성](https://github.com/dataKim1201) | [김현수](https://github.com/gustn9609) | [박승현](https://github.com/koohack) | [설유민](https://github.com/ymnseol) | [최동민](https://github.com/unknownburphy) |
 |:-:|:-:|:-:|:-:|:-:|
