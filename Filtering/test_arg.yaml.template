@@ -1,0 +1,15 @@
+retriever_path:  "/opt/ml/bm/top-5-bm25.csv"
+result_path: "/opt/ml/results/"
+result_file_name: "prediction-1.json"
+eval_or_test: 1                         ## {0: evaluation, 1: test}
+model_load_type: 0                      ## {0 = Load by "pt" file, 1 = Load by "checkpoint"}
+model_name: "klue/bert-base"
+model_path: "./save/retrain-model1.pt"
+position: True                          ## {True: question first, False: context first}
+mx_token_length: 512
+min_score: 0.5
+n_best_size: 20
+max_answer_length: 50
+
+## dummy
+retrain: 0
