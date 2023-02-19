@@ -43,7 +43,7 @@
 ```BERT```를 활용해 지원서 임베딩을 도출하고, ```FAISS```의 MIPS 알고리즘을 통해 유사한 지원자를 군집화합니다.
 
 ### 채용 - 개인정보 비식별화
-[🔗 Directory](https://github.com/gustn9609/kpmg_boosting/tree/main/filtering)
+[🔗 Directory](https://github.com/gustn9609/kpmg_boosting/tree/main/Filtering)
 
 [comment]: <> (직무와 무관한 개인정보 및 블라인드 항목을 검토하기 위해서는 많은 시간을 소모해야 하며, 채용 담당자가 해당 항목을 보는 경우, 지원자에 대한 공정하지 못한 평가가 이루어질 수 있습니다.)
 
