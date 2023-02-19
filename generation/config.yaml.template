@@ -1,0 +1,25 @@
+### Style Classifier ###
+
+### BART ###
+# Model
+bart_path: "./model" # Model path to save the fine-tuned model
+KcT5: True # If you want to use KcT5, set True.
+# Load
+model_load: False # If you want to load the trained model, set True.
+model_load_path: "./model"
+# Data
+train_data_path: "./data/train.csv"
+eval_data_path: "./data/valid.csv"
+result_csv_path: "./output" # If you want to see generation result by epoch, write the directory of path.
+# Hyperparameters
+oneshot: 0 # 0: no oneshot, 1: random example oneshot, 2: similar example oneshot
+max_length: 384 # The number of max token when tokenize
+epoch : 3
+lr : 1.0e-5
+batch_size : 4
+
+### Weights & Biases ###
+wandb_project: "" # Weights & Biases project name. If you enter a name that does not exist, create a new project with this name.
+wandb_name: "" # Weights & Biases experiment name
+wandb_entity: "" # Weights & Biases entity name
+wandb_group: "" # Weights & Biases group name
