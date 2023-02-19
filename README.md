@@ -15,7 +15,9 @@
 
 ## Background
 
+인사(HR) 업무는 특정 산업군에 한정되지 않고, **모든 기업에 적용**되는 업무입니다. 전통적인 인사 관리의 경우, 인사권자의 재량과 직관, 경험에 의존적이라는 한계가 존재했습니다. 이와 더불어, 최근 채용 트렌드가 수시채용으로 옮겨가면서, 채용 과정에서 **시간과 비용을 절감**시킬 수 있는 HR 서비스의 수요가 급증하고 있습니다.
 
+텍스트 형태의 인사 관련 정성적 데이터를 활용해, 기업이 기존의 정량적 분석으로는 답할 수 없었던 채용/평가 관련 문제를 해결할 수 있도록 자연어 모델을 활용하고자 합니다.
 
 ## Features
 ### 채용 - 문단별 요약
@@ -69,8 +71,6 @@
 [🔗 Directory](https://github.com/gustn9609/kpmg_boosting/tree/main/generation)
 
 ```BART```를 활용해 비꼬거나 혐오 표현을 담은 동료 평가 텍스트를 순화합니다.
-
-## Demo
 
 ## Members
 | [김한성](https://github.com/dataKim1201) | [김현수](https://github.com/gustn9609) | [박승현](https://github.com/koohack) | [설유민](https://github.com/ymnseol) | [최동민](https://github.com/unknownburphy) |
