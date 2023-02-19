@@ -5,7 +5,9 @@ from konlpy.tag import Mecab
 from sentence_transformers import SentenceTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+from collections import Counter
 
 def get_embeddings(text, candidates):
     ## 다국어 모델을 사용했고 SOTA 모델을 사용함에 따라 성능 개선 여지 있음
@@ -129,3 +131,12 @@ def get_keyword(text: str, top_n: int = 5):
     keyword = list(set(unique_keywords))
 
     return keyword
+
+def show_wordcloud(keyword: list):
+
+    keyword_counter = Counter(keyword)
+    ## 한글이 깨지지 않게 글씨체가 저장되어 있는 경로인 font_path를 알맞게 바꿔서 지정해야함.
+    wc = WordCloud(font_path = '/opt/ml/input/BMDOHYEON_ttf.ttf',width=400, height=400, scale=2.0, max_font_size=250)
+    gen = wc.generate_from_frequencies(keyword_counter)
+    plt.figure()
+    plt.imshow(gen)
